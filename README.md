@@ -1,19 +1,4 @@
-# test
-
-##### 分支說明
-```
-master  - 舊的分支
-
-elementui  - 部分安裝element UI
-
-vite  - 新的 vite + vue
-
-Vite_Pdf - pdf產生的 master
-
-Vite_Pdf_page - pdf產生的製作過程
-
-```
-
+# 操作手冊前端版本
 
 ## Project setup
 ```
