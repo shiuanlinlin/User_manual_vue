@@ -1,0 +1,176 @@
+$blue: #009dff
+$blue2: #0090cd
+
+.btn-primar
+	background: $blue2
+	color: #FFF
+
+.A4_box
+	position: relative
+.pdf_logo
+	width: 206px
+	position: absolute
+	left: 28px
+	top: 28px
+.pdf_bg
+	width: 100%
+.pdf_text
+	width: 275px
+	position: absolute
+	top: 750px
+	left: 28px
+.pdf_txt_Content
+	position: absolute
+	right: 28px
+	top: 40%
+	text-align: right
+	color: #FFF
+	.title_pdfBox
+		position: relative
+	.penicon
+		width: 20px
+		height: 20px
+		position: absolute
+		top: -20px
+		left: 0
+		background: $blue
+		justify-content: center
+		align-items: center
+		display: none
+		svg
+			width: 10px
+			fill: #FFF
+		&.active
+			display: flex
+	h2
+		font-family: Noto Sans
+		font-weight: bolder
+		font-size: 44px
+		cursor: pointer
+		border: dashed 1px #009dff00
+		&.Edit
+			&.active
+				border-color: $blue
+				position: relative
+				&:before
+					font-family: Font Awesome 6 Free
+					content: "\f303"
+					font-weight: 900
+					position: absolute
+					left: 0
+					top: 0
+	h3
+		font-family: Baskerville
+	h4
+		font-family: Noto Sans
+		font-size: 25px
+//頁數
+//共用左邊距離
+$letPdf: 40px
+
+.pdf_txt2_Content
+	background: #FFF
+	padding: 30px
+	h2
+		background: $blue2
+		color: #FFF
+		padding: 10px 0
+		padding-left: $letPdf
+.Pdf_Page_List
+	color: #2A424D
+	font-size: 20px
+	padding-top: 30px
+	padding-left: $letPdf
+	ol
+		li
+			color: #2A424D
+			font-weight: normal
+			margin-bottom: 30px
+	.red
+		color: #C83F40
+	//將畫面分隔成一格或兩格
+	.page_1
+		width: 100%
+	.page_2,.page_3
+		width: 48%
+		&:last-of-type
+			margin-left: auto
+	.page_3
+		line-height: 33px
+		img
+			width: 100%
+			margin-top: 30px
+
+.pdf_txt2_Content
+	height: 794px
+
+.fs-14x
+	font-size: 14px
+
+.pink_text
+	color: #EA018A
+
+//文字列表
+.text_list
+	margin-block-start: 0
+	margin-block-end: 0
+	padding-inline-start: 0
+	li
+		margin-bottom: 5px
+		div
+			&.pink_text
+				margin-right: 10px
+				white-space: nowrap
+
+.PageUl
+	margin-left: -25px
+	margin-bottom: 0px
+	li
+		list-style: none
+		display: flex
+		margin-bottom: 10px
+		position: relative
+		.title
+			min-width: 100px
+			background: #FFF
+			position: relative
+			z-index: 5
+			padding-right: 10px
+		.number_t
+			margin-right: 2px
+			display: inline-block
+			width: 34px
+			position: relative
+			z-index: 5
+			background: #FFF
+		.point
+			position: absolute
+			left: 100px
+			top: 15px
+			width: calc( 100% - 100px )
+			margin-right: 10px
+			&:after
+				content: ""
+				position: absolute
+				width: 100%
+				height: 2px
+				left: 0
+				top: 0
+				border-top: dotted 1px #333
+				border-width: 2px
+		.title
+			margin-right: 10px
+			display: inline-block
+		.pagenumber
+			background: #FFF
+			position: relative
+			z-index: 5
+			margin-left: auto
+			padding-left: 10px
+			&.spacing
+				letter-spacing: 4px
+
+.ml-34x
+	margin-left: 34px
+.ml-64x
+	margin-left: 64px
