@@ -57,70 +57,119 @@
             "num": "",
             "status": "1",
             "stort": 8,
-            "page": "10"
+            "page": "09"
         },
         {
             "name": "衛生安全說明設定",
             "num": "",
             "status": "1",
             "stort": 9,
-            "page": "11"
+            "page": "10"
         },
         {
             "name": "設備零件保養說明",
             "num": "",
             "status": "1",
             "stort": 10,
-            "page": "12"
+            "page": "10"
         },
         {
             "name": "製程敘述設定",
             "num": "",
             "status": "1",
             "stort": 11,
-            "page": 13
+            "page": 11
         },
         {
             "name": "日報表格式管理",
             "num": "",
             "status": "1",
             "stort": 12,
-            "page": 14
+            "page": 12
         },
         {
             "name": "衛生安全",
             "num": "1",
             "status": "3",
             "stort": "",
+            "page": 12
+        },
+        {
+            "name": "作業前確認事項",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 13
+        },
+        {
+            "name": "作業後確認事項列表",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 14
+        },
+        {
+            "name": "CCP點檢查",
+            "num": "1",
+            "status": "4",
+            "stort": "",
             "page": 15
+        },
+        {
+            "name": "開袋檢杳",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 16
         },
         {
             "name": "機台設備零件保養",
             "num": "2",
             "status": "3",
             "stort": "",
-            "page": 16
+            "page": 17
+        },
+        {
+            "name": "作業前確認事項",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 18
+        },
+        {
+            "name": "作業後確認事項",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 19
+        },
+        {
+            "name": "維修後確認事項",
+            "num": "1",
+            "status": "4",
+            "stort": "",
+            "page": 20
         },
         {
             "name": "異常及處置",
             "num": "3",
             "status": "3",
             "stort": "",
-            "page": 17
+            "page": 21
         },
         {
             "name": "待審批日報表",
             "num": "",
             "status": "1",
             "stort": 13,
-            "page": 18
+            "page": 22
         },
         {
             "name": "總日報表管理",
             "num": "",
             "status": "1",
             "stort": 14,
-            "page": 19
+            "page": 23
         }
     ],
     "pdf_p3": [

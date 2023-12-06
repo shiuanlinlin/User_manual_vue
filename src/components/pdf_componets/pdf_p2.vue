@@ -6,7 +6,7 @@
                 <!-- 將畫面分成兩格或一格 page_1 、 page_2-->
                 <div class="page_2 Edit" :data-id="id" data-bs-toggle="modal" data-bs-target="#txtModal">
                     <!-- 一排16個就滿頁 -->
-                    <ul class="PageUl" v-for="(item,index) in prop2" :key="index">
+                    <ul class="PageUl" v-for="(item,index) in prop2.slice(0, 16)" :key="index">
                         <li v-if="item.status == 1">
                             <div class="number_t">({{ changeNumber(item.stort) }})</div>
                             <div class="title">{{ item.name }}</div>
@@ -40,6 +40,40 @@
                     </ul>
                 </div>
                 <div class="page_2" :data-id="id+'_edit'" data-bs-toggle="modal" data-bs-target="#txtModal">
+                    <!-- 顯示 剩餘頁數 -->
+                    <ul class="PageUl" v-for="(item,index) in prop2.slice(16)" :key="index">
+                        <li v-if="item.status == 1">
+                            <div class="number_t">({{ changeNumber(item.stort) }})</div>
+                            <div class="title">{{ item.name }}</div>
+                            <div class="point"></div>
+                            <div class="pagenumber" v-if="(Number( item.page ) < 10 )">{{ item.page }}</div>
+                            <div class="pagenumber spacing" v-if="(Number( item.page ) > 9 )">{{ item.page }}</div>
+                        </li>
+                        <li v-if="item.status == 2" class="status_2">
+                            <div class="number_t"></div>
+                            <div class="title">{{ item.name }}</div>
+                            <div class="point"></div>
+                            <div class="pagenumber">{{ item.page }}</div>
+                        </li>
+                        <li v-if="item.status == 3" class="ml-34x">
+                            <div class="number_t">({{ item.num  }}.)</div>
+                            <div class="title">{{ item.name }}</div>
+                            <div class="point"></div>
+                            <div class="pagenumber">{{ item.page }}</div>
+                        </li>
+                        <li v-if="item.status == 4" class="ml-64x">
+                            <div class="number_t"></div>
+                            <div class="title">{{ item.name }}</div>
+                            <div class="point"></div>
+                            <div class="pagenumber">{{ item.page }}</div>
+                        </li>
+                        <li v-if="item.status == 5">
+                            <div class="number_t">({{ changeNumber(item.stort) }})</div>
+                            <div class="title">{{ item.name }}</div>
+                        </li>
+                        <div ref="PdfHTMLList"></div>
+                    </ul>
+                    <br>
                   <div ref="PdfHTML">
                   </div>
                 </div>
