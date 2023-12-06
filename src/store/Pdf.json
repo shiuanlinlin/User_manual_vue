@@ -15,79 +15,13 @@
     ],
     "pdf_p3": [
         {
-            "title1": "修改密碼",
-            "content1": "此頁可更修改個人登入密碼，有打<span class='red'>【＊】</span>，為必填項目，輸入資料後，按下<span class='red'>【送出】</span> 即可儲存完成。",
-            "img1": "<img src='img/pdf/01.png'>",
+            "title1": "日報表格式管理_衛生安全",
+            "content1": "管理項目增設：作業前確認事項、作業後確認事項、CCP 點檢查、開袋檢查",
+            "img1": "<img src='img/pdf/17.png'>",
             "title2": "",
             "content2": "",
             "img2": "",
-            "pagestatus": 1
-        },
-        {
-            "title1": "權限管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處設置權限，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改管理資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>狀態 :</div><div class='text_content'>可設定帳號是否啟用/停用。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/02.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯姓名及該人員權限開關，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/03.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "會員管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>檢視 :</div><div class='text_content'>若是需要查看資料，可利用【檢視】進入內頁。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/04.png'>",
-            "title2": "",
-            "content2": "進入內頁，可查看會員資料，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/05.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "商品管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增商品，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改產品資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>排序 :</div><div class='text_content'>利用【排序】可調整商品列表的展示順序。</div></li><li class='d-flex'><div class='pink_text'>是否上架 :</div><div class='text_content'>可設定商品是否上架/下架。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>如要移除商品，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/06.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯商品，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/07.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "影音管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改影音資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/08.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯影音資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/09.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_廣告點擊紀錄",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/10.png'>",
-            "title2": "",
-            "content2": "",
-            "img2": "",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_首頁廣告",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增首頁廣告，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改首頁廣告，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除:</div><div class='text_content'>如要移除廣告，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/11.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯廣告資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/12.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_優惠活動廣告",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增優惠活動廣，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改廣告，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除:</div><div class='text_content'>如要移除廣告，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/13.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯廣告資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/14.png'>",
             "pagestatus": 1
         }
     ]
-
-
-
 }

@@ -139,7 +139,7 @@ $letPdf: 40px
 		.number_t
 			margin-right: 2px
 			display: inline-block
-			width: 34px
+			min-width: 34px
 			position: relative
 			z-index: 5
 			background: #FFF
@@ -163,10 +163,14 @@ $letPdf: 40px
 			display: inline-block
 		.pagenumber
 			background: #FFF
-			position: relative
+			// position: relative
 			z-index: 5
 			margin-left: auto
 			padding-left: 10px
+			position: absolute
+			right: 0
+			width: 33px
+			text-align: center
 			&.spacing
 				letter-spacing: 4px
 

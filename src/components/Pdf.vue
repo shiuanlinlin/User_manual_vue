@@ -163,6 +163,12 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
       }
     },
     mounted() {
+        //一開始就加入標題
+        this.getStorageTitle();
+        //一開始就加入目錄
+        this.getwebcatalog('load');
+        //一開始就創建資料
+        this.getweb('load');
         this.$nextTick(() => {
             const element = this.$refs.pdfContent;
             const options = {
@@ -230,15 +236,33 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
         })
     },
     methods: {
-      //暫時使用json印出所有資料
-      getweb(){
-        this.p3ul = PdfAll.pdf_p3;
-        alert('完成！');
+      //抓出標題
+      getStorageTitle()
+      {
+        //存在 window.sessionStorage (頁面關閉就會清除)
+        let Storage = window.sessionStorage;
+        let Title = Storage.getItem('page_title');
+        if(Title)
+        {
+          //標題 文字修改
+          this.pdftitle1 = Title;
+        }
       },
-      getwebcatalog()
+      //暫時使用json印出所有資料
+      getweb(status){
+        this.p3ul = PdfAll.pdf_p3;
+        if(status != 'load')
+        {
+          alert('完成！');
+        }
+      },
+      getwebcatalog(status)
       {
         this.p2List = PdfTitle.pdf_p2_title;
-        alert('完成！');
+        if(status != 'load')
+        {
+          alert('完成！');
+        }
       },
       //抓取網址資料 (還沒寫完，差在提取id，存入json)
       // getweb(){
@@ -276,11 +300,16 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
       saveModalInputValue() {
         const inputValue = this.modalInputValue; // 獲取 input 的值
         const inputId = this.modalInputId;
+
+        //存在 window.sessionStorage (頁面關閉就會清除)
+        let Storage = window.sessionStorage;
         switch(inputId)
         {
           case "pdf_p1":
-            //標題
+            //標題 文字修改
             this.pdftitle1 = inputValue;
+            //存在 window.sessionStorage (頁面關閉就會清除)
+            Storage.setItem('page_title', inputValue);
             break;
           case "pdf_p2":
             //頁碼
@@ -302,16 +331,18 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
               j++;
               if(item.dataset.status == 1)
               {
-                Alljson.push({"name":item.value,"num":item.parentElement.children[1].value,"status":item.dataset.status,"stort":i,"page":pagenum});
+                Alljson.push({"name":item.value,"num":item.parentElement.children[1].value,"status":Number(item.dataset.status),"stort":i,"page":pagenum});
                 i++;
               }
               if(item.dataset.status != 1)
               {
-                Alljson.push({"name":item.value,"num":item.parentElement.children[1].value,"status":item.dataset.status,"stort":"","page":pagenum});
+                Alljson.push({"name":item.value,"num":item.parentElement.children[1].value,"status":Number(item.dataset.status),"stort":"","page":pagenum});
               }
             });
             //console.log(this.p2List);
             console.log(Alljson);
+            let json = JSON.stringify(Alljson);
+            Storage.setItem('page_num', json);
             this.p2List = Alljson;
           break;
         }

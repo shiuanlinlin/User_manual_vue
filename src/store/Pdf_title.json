@@ -3,15 +3,125 @@
         {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
     ],
     "pdf_p2_title": [
-        {"name": "修改密碼", "num": "", "status": 1, "stort": 1, "page": "03"},
-        {"name": "權限管理", "num": "", "status": 1, "stort": 2, "page": "04"},
-        {"name": "會員管理", "num": "", "status": 1, "stort": 3, "page": "05"},
-        {"name": "商品管理", "num": "", "status": 1, "stort": 4, "page": "06"},
-        {"name": "影音管理", "num": "", "status": 1, "stort": 5, "page": "07"},
-        {"name": "廣告管理", "num": "", "status": 5, "stort": 6, "page": "08"},
-        {"name": "廣告點擊紀錄", "num": "", "status": 2, "stort": 6, "page": "08"},
-        {"name": "首頁廣告", "num": "", "status": 2, "stort": 7, "page": "09"},
-        {"name": "優惠活動廣告", "num": "", "status": 2, "stort": 8, "page": "10"}
+        {
+            "name": "修改密碼",
+            "num": "",
+            "status": "1",
+            "stort": 1,
+            "page": "03"
+        },
+        {
+            "name": "權限管理",
+            "num": "",
+            "status": "1",
+            "stort": 2,
+            "page": "04"
+        },
+        {
+            "name": "機台管理",
+            "num": "",
+            "status": "1",
+            "stort": 3,
+            "page": "05"
+        },
+        {
+            "name": "部門管理",
+            "num": "",
+            "status": "1",
+            "stort": 4,
+            "page": "06"
+        },
+        {
+            "name": "作業員管理",
+            "num": "",
+            "status": "1",
+            "stort": 5,
+            "page": "07"
+        },
+        {
+            "name": "商品管理",
+            "num": "",
+            "status": "1",
+            "stort": 6,
+            "page": "08"
+        },
+        {
+            "name": "NAS連結設定",
+            "num": "",
+            "status": "1",
+            "stort": 7,
+            "page": "09"
+        },
+        {
+            "name": "重點訊息設定",
+            "num": "",
+            "status": "1",
+            "stort": 8,
+            "page": "10"
+        },
+        {
+            "name": "衛生安全說明設定",
+            "num": "",
+            "status": "1",
+            "stort": 9,
+            "page": "11"
+        },
+        {
+            "name": "設備零件保養說明",
+            "num": "",
+            "status": "1",
+            "stort": 10,
+            "page": "12"
+        },
+        {
+            "name": "製程敘述設定",
+            "num": "",
+            "status": "1",
+            "stort": 11,
+            "page": 13
+        },
+        {
+            "name": "日報表格式管理",
+            "num": "",
+            "status": "1",
+            "stort": 12,
+            "page": 14
+        },
+        {
+            "name": "衛生安全",
+            "num": "1",
+            "status": "3",
+            "stort": "",
+            "page": 15
+        },
+        {
+            "name": "機台設備零件保養",
+            "num": "2",
+            "status": "3",
+            "stort": "",
+            "page": 16
+        },
+        {
+            "name": "異常及處置",
+            "num": "3",
+            "status": "3",
+            "stort": "",
+            "page": 17
+        },
+        {
+            "name": "待審批日報表",
+            "num": "",
+            "status": "1",
+            "stort": 13,
+            "page": 18
+        },
+        {
+            "name": "總日報表管理",
+            "num": "",
+            "status": "1",
+            "stort": 14,
+            "page": 19
+        }
     ],
     "pdf_p3": [
         {
