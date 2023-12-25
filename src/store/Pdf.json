@@ -15,12 +15,21 @@
     ],
     "pdf_p3": [
         {
-            "title1": "日報表格式管理_衛生安全",
-            "content1": "管理項目增設：作業前確認事項、作業後確認事項、CCP 點檢查、開袋檢查",
-            "img1": "<img src='img/pdf/17.png'>",
+            "title1": "總日報表管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出excel :</div><div class='text_content'>可匯出總日報表資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可進入觀看詳細資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/37.png'>",
+            "title2": "總日報表管理_查看總日報表",
+            "content2": "可查詢簽核資訊、數據分析與相關產品、人員的基本資訊、製程敘述、檢查項目，紀錄例行性檢查與資料來源",
+            "img2": "<img src='img/pdf/38.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "總日報表管理_查看總日報表",
+            "content1": "",
+            "img1": "<img src='img/pdf/39.png'>",
             "title2": "",
             "content2": "",
-            "img2": "",
+            "img2": "<img src='img/pdf/40.png'>",
             "pagestatus": 1
         }
     ]
