@@ -1,0 +1,63 @@
+{
+    "pdf_p2": [
+        {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
+    ],
+    "pdf_p2_title": [
+        {"name": "修改密碼", "num": "", "status": 1, "stort": 1, "page": "03"},
+        {"name": "權限管理", "num": "", "status": 1, "stort": 2, "page": "04"},
+        {"name": "會員管理", "num": "", "status": 1, "stort": 3, "page": "05"},
+        {"name": "商品管理", "num": "", "status": 1, "stort": 4, "page": "06"},
+        {"name": "影音管理", "num": "", "status": 1, "stort": 5, "page": "07"},
+        {"name": "廣告管理", "num": "", "status": 5, "stort": 6, "page": "08"},
+        {"name": "廣告點擊紀錄", "num": "", "status": 2, "stort": 6, "page": "08"},
+        {"name": "首頁廣告", "num": "", "status": 2, "stort": 7, "page": "09"},
+        {"name": "優惠活動廣告", "num": "", "status": 2, "stort": 8, "page": "10"}
+    ],
+    "pdf_p3": [
+        {
+            "title1": "儀表板總覽",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>買時間會員數 :</div><div class='text_content'>紀錄目前共有幾位會員購買了時間。</div></li><li class='d-flex'><div class='pink_text'>賣時間會員數 :</div><div class='text_content'>紀錄目前共有幾位會員出售了時間。</div></li><li class='d-flex'><div class='pink_text'>會員總數 :</div><div class='text_content'>紀錄目前平台上共有幾位位會員。</div></li><li class='d-flex'><div class='pink_text'>收入 :</div><div class='text_content'>目前平台的總收入</div></li><li class='d-flex'><div class='pink_text'>禮物 :</div><div class='text_content'>目前平台上收到的禮物總價值</div></li><li class='d-flex'><div class='pink_text'>方案統計 :</div><div class='text_content'>目前平台上的方案總金額。</div></li><li class='d-flex'><div class='pink_text'>檢舉筆數 (訊息 + 禮物) :</div><div class='text_content'>目前平台上的檢舉記錄。</div></li><li class='d-flex'><div class='pink_text'>送禮次數 :</div><div class='text_content'>目前會員之間總共送出幾次禮物。</div></li></ul>",
+            "img1": "<img src='img/pdf/1.png'>",
+            "title2": "修改密碼",
+            "content2": "此頁可更修改個人登入密碼，有打<span class='red'>【＊】</span>，為必填項目，輸入資料後，按下<span class='red'>【送出】</span> 即可儲存完成。",
+            "img2": "<img src='img/pdf/2.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "權限管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處設置權限，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改管理資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>狀態 :</div><div class='text_content'>可設定帳號是否啟用/停用。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/3.png'>",
+            "title2": "",
+            "content2": "進入內頁，可編輯姓名及該人員權限開關，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下<span class='red'>【儲存送出】</span>之即可；若是不更改內容，按下<span class='red'>【取消】</span>之即可返回上頁。",
+            "img2": "<img src='img/pdf/4.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "banner管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='text_content'>以下可修改各頁面的 banner 與文字，可修改的頁面有首頁1 (2000px * 979px)、首頁右2 (800px * 800px)、首頁左3 (800px * 800px)、首頁左4 (800px * 800px)、登入banner (1920px * 470px)、註冊banner (1920px * 470px)、忘記密碼banner (1920px * 470px)、list_banner (1920px * 257px)、聯絡平台 (1920px * 470px)、會員中心 (1920px * 257px)。</div></li></ul>",
+            "img1": "<img src='img/pdf/5.png'>",
+            "title2": "廣告 Banner 管理",
+            "content2": "此頁可修改前台列表的廣告，輸入資料後，按下<span class='red'>【儲存送出】</span> 即可儲存完成。",
+            "img2": "<img src='img/pdf/6.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "會員管理 - 【賣時間】普通會員",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/7.png'>",
+            "title2": "",
+            "content2": "詳情可查看會員相關資料與大頭照",
+            "img2": "<img src='img/pdf/8.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "會員管理 - 【賣時間】VIP 會員",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>設為黑名單 :</div><div class='text_content'>可設定該會員為黑名單。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/9.png'>",
+            "title2": "",
+            "content2": "詳情可查看會員相關資料與大頭照、會員私密相簿，設定<span class='red'>【該會員的級別】</span>、<span class='red'>【到期時間】</span>",
+            "img2": "<img src='img/pdf/10.png'>",
+            "pagestatus": 1
+        }
+    ]
+}

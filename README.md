@@ -1,11 +1,11 @@
 # 操作手冊前端版本
 
-## Project setup
+## 安裝
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 執行
 ```
 npm run dev
 ```

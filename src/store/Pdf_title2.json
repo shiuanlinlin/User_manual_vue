@@ -3,230 +3,26 @@
         {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
     ],
     "pdf_p2_title": [
-
             {
-                "name": "儀表板總覽",
+                "name": "使用教學",
                 "num": "",
                 "status": 1,
-                "stort": 1,
-                "page": "04"
+                "stort": 17,
+                "page": 28
             },
             {
-                "name": "修改密碼",
+                "name": "服務條款管理",
                 "num": "",
                 "status": 1,
-                "stort": 2,
-                "page": "04"
+                "stort": 18,
+                "page": 28
             },
             {
-                "name": "權限管理",
+                "name": "隱私權政策管理",
                 "num": "",
                 "status": 1,
-                "stort": 3,
-                "page": "05"
-            },
-            {
-                "name": "banner管理",
-                "num": "",
-                "status": 1,
-                "stort": 4,
-                "page": "06"
-            },
-            {
-                "name": "廣告Banner 管理",
-                "num": "",
-                "status": 1,
-                "stort": 5,
-                "page": "06"
-            },
-            {
-                "name": "會員管理",
-                "num": "",
-                "status": 5,
-                "stort": 6,
-                "page": ""
-            },
-            {
-                "name": "【賣時間】普通會員",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": "07"
-            },
-            {
-                "name": "【賣時間】VIP會員",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": "08"
-            },
-            {
-                "name": "【賣時間】VVIP會員",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": "09"
-            },
-            {
-                "name": "【買時間】會員管理",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 10
-            },
-            {
-                "name": "免費升級體驗VIP天數設定",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 11
-            },
-            {
-                "name": "審查管理",
-                "num": "",
-                "status": 5,
-                "stort": 7,
-                "page": ""
-            },
-            {
-                "name": "買時間",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 12
-            },
-            {
-                "name": "賣時間",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 13
-            },
-            {
-                "name": "賣時間-VVIP審核",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 14
-            },
-            {
-                "name": "訂單管理",
-                "num": "",
-                "status": 5,
-                "stort": 8,
-                "page": ""
-            },
-            {
-                "name": "加值升級訂單",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 15
-            },
-            {
-                "name": "買禮物訂單",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 16
-            },
-            {
-                "name": "約會紀錄管理",
-                "num": "",
-                "status": 1,
-                "stort": 9,
-                "page": 17
-            },
-            {
-                "name": "動態牆管理",
-                "num": "",
-                "status": 1,
-                "stort": 10,
-                "page": 18
-            },
-            {
-                "name": "加值方案管理",
-                "num": "",
-                "status": 1,
-                "stort": 11,
-                "page": 19
-            },
-            {
-                "name": "金鑰設定",
-                "num": "",
-                "status": 1,
-                "stort": 12,
-                "page":20
-            },
-            {
-                "name": "禮物管理",
-                "num": "",
-                "status": 1,
-                "stort": 13,
-                "page": 21
-            },
-            {
-                "name": "興趣管理",
-                "num": "",
-                "status": 5,
-                "stort": 14,
-                "page": ""
-            },
-            {
-                "name": "場地",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 22
-            },
-            {
-                "name": "類型",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 23
-            },
-            {
-                "name": "興趣管理",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 24
-            },
-            {
-                "name": "報表管理",
-                "num": "",
-                "status": 5,
-                "stort": 15,
-                "page": ""
-            },
-            {
-                "name": "VVIP 分潤報表",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 25
-            },
-            {
-                "name": "加值升級報表",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 25
-            },
-            {
-                "name": "禮物銷售報表",
-                "num": "",
-                "status": 2,
-                "stort": "",
-                "page": 26
-            },
-            {
-                "name": "訊息檢舉管理",
-                "num": "",
-                "status": 1,
-                "stort": 16,
-                "page": 27
+                "stort": 19,
+                "page": 29
             }
 
     ],

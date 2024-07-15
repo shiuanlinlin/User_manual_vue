@@ -92,7 +92,7 @@ import axios from 'axios';
 import { QuillEditor } from '@vueup/vue-quill'
 import '@vueup/vue-quill/dist/vue-quill.snow.css';
 //取得Pdf資料
-import PdfAll from '../store/Pdf.json';
+import PdfAll from '../store/Pdf_all.json';
 import PdfTitle from '../store/Pdf_title.json';
 import { faL } from '@fortawesome/free-solid-svg-icons';
   export default {
