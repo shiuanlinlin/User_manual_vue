@@ -3,7 +3,7 @@
         <div class="pdf_txt2_Content">
             <!-- pagestatus == 1 表示只有一欄 ， 2 等於兩欄 -->
             <h2 class="d-flex" v-if="data.pagestatus == 1">
-                <div class="page3_title w-50" data-id="page3_title_1">{{ data.title1 }}</div>
+                <div class="page3_title w-100" data-id="page3_title_1">{{ data.title1 }}</div>
             </h2>
             <h2 class="d-flex" v-if="data.pagestatus == 2">
                 <div class="page3_title w-50" data-id="page3_title_1">{{ data.title1 }}</div>

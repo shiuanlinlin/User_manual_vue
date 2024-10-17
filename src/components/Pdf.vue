@@ -15,8 +15,8 @@
     </div>
     <div class="A4_box">
       <div class="A4_Content" ref="pdfContent">
-          <A4_Content_p1 :prop1=EditClass :prop2=pdftitle1 />
-          <A4_Content_p2 :prop1=pdftitle2 :prop2=p2List />
+          <!-- <A4_Content_p1 :prop1=EditClass :prop2=pdftitle1 />
+          <A4_Content_p2 :prop1=pdftitle2 :prop2=p2List /> -->
           <A4_Content_p3 v-for="item in p3ul" :key="item.id" :data="item"/>
       </div>
     </div>

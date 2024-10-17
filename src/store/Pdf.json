@@ -1,35 +1,165 @@
 {
-    "pdf_p2": [
-        {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
-    ],
-    "pdf_p2_title": [
-        {"name": "修改密碼", "num": "", "status": 1, "stort": 1, "page": "03"},
-        {"name": "權限管理", "num": "", "status": 1, "stort": 2, "page": "04"},
-        {"name": "會員管理", "num": "", "status": 1, "stort": 3, "page": "05"},
-        {"name": "商品管理", "num": "", "status": 1, "stort": 4, "page": "06"},
-        {"name": "影音管理", "num": "", "status": 1, "stort": 5, "page": "07"},
-        {"name": "廣告管理", "num": "", "status": 5, "stort": 6, "page": "08"},
-        {"name": "廣告點擊紀錄", "num": "", "status": 2, "stort": 6, "page": "08"},
-        {"name": "首頁廣告", "num": "", "status": 2, "stort": 7, "page": "09"},
-        {"name": "優惠活動廣告", "num": "", "status": 2, "stort": 8, "page": "10"}
-    ],
     "pdf_p3": [
         {
-            "title1": "總日報表管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出excel :</div><div class='text_content'>可匯出總日報表資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可進入觀看詳細資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/37.png'>",
-            "title2": "總日報表管理_查看總日報表",
-            "content2": "可查詢簽核資訊、數據分析與相關產品、人員的基本資訊、製程敘述、檢查項目，紀錄例行性檢查與資料來源",
-            "img2": "<img src='img/pdf/38.png'>",
-            "pagestatus": 2
+            "title1": "審查管理 - 待審查列表",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>審核 :</div><div class='text_content'>可審核相關資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/1.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'></div><div class='text_content'>可選擇通過、退回重辦、退回停辦與備註說明。</div></li></ul>",
+            "img2": "<img src='img/pdf/1-1.png'>",
+            "pagestatus": 1
         },
         {
-            "title1": "總日報表管理_查看總日報表",
-            "content1": "",
-            "img1": "<img src='img/pdf/39.png'>",
+            "title1": "審查管理 - 審查紀錄",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增案件的審批專案。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/2.png'>",
             "title2": "",
             "content2": "",
-            "img2": "<img src='img/pdf/40.png'>",
+            "img2": "<img src='img/pdf/2-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審查管理 - 部門審批流程",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>部門審批流程 :</div><div class='text_content'>可設定公保地事業部、容積移轉事業部，設定完成後的審查順序。</div></li></ul>",
+            "img1": "<img src='img/pdf/3.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
+            "pagestatus": 1
+        },
+        {
+            "title1": "容積移轉事業部專案 - 容積移轉列表",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增爬蟲相關資訊，儲存後，再進入編修，設定其他資料。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯資料設定相關資訊。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/4.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增爬蟲相關資訊，儲存後，再進入編修，設定其他資料。</div></ul>",
+            "img2": "<img src='img/pdf/4-1-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "容積移轉事業部專案 - 容積移轉列表",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>爬蟲設定 :</div><div class='text_content'>可設定爬蟲相關資訊，【容積移轉設定】 有區分【台北市】、【新北】、【桃園】，台北會有9個頁籤、新北與桃園會只有一個頁籤。</div></li></ul>",
+            "img1": "<img src='img/pdf/4-3.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/4-4.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "容積移轉事業部專案 - 臺北市法令檢討設定",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增法令資料設定。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯法令資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/5.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/5-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "公保地事業部專案",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增公保地相關設定，儲存後，再進入編修，設定其他資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/6.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/6-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "公保地事業部專案",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯公保地基礎相關設定。</div></li></ul>",
+            "img1": "<img src='img/pdf/6-2.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>爬蟲設定 :</div><div class='text_content'>可設爬蟲的目標資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/6-3.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "都市更新事業部專案 - 溝通紀錄行事曆",
+            "content1": "可查詢相關都市更新紀錄，可切換上個月與下個月",
+            "img1": "<img src='img/pdf/7.png'>",
+            "title2": "",
+            "content2": "點開行事曆標記資訊，可看到相關詳細資料，並且可直接前往查看專案",
+            "img2": "<img src='img/pdf/7-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "都市更新事業部專案 - 都市更新專案列表",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增都市更新專案資訊，儲存後，再進入編修，設定其他資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/8.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/8-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "都市更新事業部專案 - 都市更新專案列表",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯相關資料，上傳土地與建物謄本，可自動協助分析產生Excel報表。</div></li><li class='d-flex'><div class='pink_text'>新增溝通紀錄 :</div><div class='text_content'>可新增專案的溝通紀錄，在行事曆顯示。</div></li></ul>",
+            "img1": "<img src='img/pdf/8-2.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
+            "pagestatus": 1
+        },
+        {
+            "title1": "建設公司管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增建設公司資料。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯建設公司資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/9.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/9-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "介紹人管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增介紹人資料。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯介紹人資料。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/10.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/10-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "標籤管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增標籤名稱。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯標籤名稱。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/11.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/11-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "人事管理 - 部門管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增部門名稱。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯部門名稱。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/12.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/12-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "人事管理 - 職稱管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增職稱。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯職稱。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/13.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/13-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "人事管理 - 員工管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增員工資料，並設定網站使用權限設定、判定是否為主管、選擇職稱。</div></li><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯員工資料，並設定網站使用權限設定、判定是否為主管、選擇職稱。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/14.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/14-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "系統管理 - 修改個人密碼",
+            "content1": "可修改當下登入使用者的密碼。",
+            "img1": "<img src='img/pdf/15.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
             "pagestatus": 1
         }
     ]

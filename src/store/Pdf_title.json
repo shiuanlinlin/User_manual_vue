@@ -4,249 +4,144 @@
     ],
     "pdf_p2_title": [
         {
-            "name": "修改密碼",
-            "num": "",
+            "name": "審查管理",
+            "num": 1,
             "status": "1",
-            "stort": 1,
+            "stort": 2,
             "page": "03"
         },
         {
-            "name": "權限管理",
-            "num": "",
-            "status": "1",
+            "name": "待審查列表",
+            "num": 1,
+            "status": "3",
             "stort": 2,
+            "page": "03"
+        },
+        {
+            "name": "審查紀錄",
+            "num": 2,
+            "status": "3",
+            "stort": 3,
             "page": "04"
         },
         {
-            "name": "機台管理",
-            "num": "",
-            "status": "1",
-            "stort": 3,
+            "name": "部門審批流程",
+            "num": "3",
+            "status": "3",
+            "stort": 4,
             "page": "05"
         },
         {
-            "name": "部門管理",
-            "num": "",
+            "name": "容積移轉事業部專案",
+            "num": "1",
             "status": "1",
-            "stort": 4,
+            "stort": 3,
             "page": "06"
         },
         {
-            "name": "作業員管理",
-            "num": "",
-            "status": "1",
-            "stort": 5,
-            "page": "07"
+            "name": "容積移轉列表",
+            "num": "1",
+            "status": "3",
+            "stort": 6,
+            "page": "06"
         },
         {
-            "name": "商品管理",
-            "num": "",
-            "status": "1",
+            "name": "臺北市法令檢討設定",
+            "num": "2",
+            "status": "3",
             "stort": 6,
             "page": "08"
         },
         {
-            "name": "NAS連結設定",
+            "name": "公保地事業部專案",
+            "num": "",
+            "status": "1",
+            "stort": 4,
+            "page": "09"
+        },
+        {
+            "name": "都市更新事業部專案",
+            "num": "",
+            "status": "1",
+            "stort": 5,
+            "page": "11"
+        },
+        {
+            "name": "溝通紀錄行事曆",
+            "num": "1",
+            "status": "3",
+            "stort": 6,
+            "page": "11"
+        },
+        {
+            "name": "都市更新專案列表",
+            "num": "2",
+            "status": "3",
+            "stort": 9,
+            "page": "12"
+        },
+        {
+            "name": "建設公司管理",
+            "num": "",
+            "status": "1",
+            "stort": 6,
+            "page": "14"
+        },
+        {
+            "name": "介紹人管理",
             "num": "",
             "status": "1",
             "stort": 7,
-            "page": "09"
-        },
-        {
-            "name": "重點訊息設定",
-            "num": "",
-            "status": "1",
-            "stort": 8,
-            "page": "09"
-        },
-        {
-            "name": "衛生安全說明設定",
-            "num": "",
-            "status": "1",
-            "stort": 9,
-            "page": "10"
-        },
-        {
-            "name": "設備零件保養說明",
-            "num": "",
-            "status": "1",
-            "stort": 10,
-            "page": "10"
-        },
-        {
-            "name": "製程敘述設定",
-            "num": "",
-            "status": "1",
-            "stort": 11,
-            "page": 11
-        },
-        {
-            "name": "日報表格式管理",
-            "num": "",
-            "status": "1",
-            "stort": 12,
-            "page": 12
-        },
-        {
-            "name": "衛生安全",
-            "num": "1",
-            "status": "3",
-            "stort": "",
-            "page": 12
-        },
-        {
-            "name": "作業前確認事項",
-            "num": "1",
-            "status": "4",
-            "stort": "",
-            "page": 13
-        },
-        {
-            "name": "作業後確認事項列表",
-            "num": "1",
-            "status": "4",
-            "stort": "",
-            "page": 14
-        },
-        {
-            "name": "CCP點檢查",
-            "num": "1",
-            "status": "4",
-            "stort": "",
             "page": 15
         },
         {
-            "name": "開袋檢杳",
-            "num": "1",
-            "status": "4",
-            "stort": "",
+            "name": "標籤管理",
+            "num": "",
+            "status": "1",
+            "stort": 8,
             "page": 16
         },
         {
-            "name": "機台設備零件保養",
-            "num": "2",
+            "name": "人事管理",
+            "num": "",
+            "status": "1",
+            "stort": 9,
+            "page": 17
+        },
+        {
+            "name": "部門管理",
+            "num": "1",
             "status": "3",
             "stort": "",
             "page": 17
         },
         {
-            "name": "作業前確認事項",
-            "num": "1",
-            "status": "4",
+            "name": "職稱管理",
+            "num": "2",
+            "status": "3",
             "stort": "",
             "page": 18
         },
         {
-            "name": "作業後確認事項",
-            "num": "1",
-            "status": "4",
+            "name": "員工管理",
+            "num": "3",
+            "status": "3",
             "stort": "",
             "page": 19
         },
         {
-            "name": "維修後確認事項",
-            "num": "1",
-            "status": "4",
-            "stort": "",
+            "name": "系統管理",
+            "num": "",
+            "status": "1",
+            "stort": "10",
             "page": 20
         },
         {
-            "name": "異常及處置",
-            "num": "3",
+            "name": "修改個人密碼",
+            "num": "1",
             "status": "3",
             "stort": "",
-            "page": 21
-        },
-        {
-            "name": "待審批日報表",
-            "num": "",
-            "status": "1",
-            "stort": 13,
-            "page": 22
-        },
-        {
-            "name": "總日報表管理",
-            "num": "",
-            "status": "1",
-            "stort": 14,
-            "page": 23
-        }
-    ],
-    "pdf_p3": [
-        {
-            "title1": "修改密碼",
-            "content1": "此頁可更修改個人登入密碼，有打<span class='red'>【＊】</span>，為必填項目，輸入資料後，按下<span class='red'>【送出】</span> 即可儲存完成。",
-            "img1": "<img src='img/pdf/01.png'>",
-            "title2": "",
-            "content2": "",
-            "img2": "",
-            "pagestatus": 1
-        },
-        {
-            "title1": "權限管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處設置權限，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改管理資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>狀態 :</div><div class='text_content'>可設定帳號是否啟用/停用。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/02.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯姓名及該人員權限開關，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/03.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "會員管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>檢視 :</div><div class='text_content'>若是需要查看資料，可利用【檢視】進入內頁。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/04.png'>",
-            "title2": "",
-            "content2": "進入內頁，可查看會員資料，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/05.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "商品管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增商品，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改產品資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>排序 :</div><div class='text_content'>利用【排序】可調整商品列表的展示順序。</div></li><li class='d-flex'><div class='pink_text'>是否上架 :</div><div class='text_content'>可設定商品是否上架/下架。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>如要移除商品，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/06.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯商品，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/07.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "影音管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改影音資料，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/08.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯影音資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/09.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_廣告點擊紀錄",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/10.png'>",
-            "title2": "",
-            "content2": "",
-            "img2": "",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_首頁廣告",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增首頁廣告，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改首頁廣告，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除:</div><div class='text_content'>如要移除廣告，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/11.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯廣告資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/12.png'>",
-            "pagestatus": 1
-        },
-        {
-            "title1": "廣告管理_優惠活動廣告",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>於此處新增優惠活動廣，按下【新增】即可。</div></li><li class='d-flex'><div class='pink_text'>編修 :</div><div class='text_content'>若是需要更改廣告，可利用【編修】進入內頁編輯資料。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li><li class='d-flex'><div class='pink_text'>刪除:</div><div class='text_content'>如要移除廣告，可按下【刪除】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/13.png'>",
-            "title2": "",
-            "content2": "進入內頁，可編輯廣告資訊，有打<span class='red'>【＊】</span>之欄位，為必填項目，編輯完成按下【儲存送出】即可；若是不更改內容，按下【取消】即可返回上頁。",
-            "img2": "<img src='img/pdf/14.png'>",
-            "pagestatus": 1
+            "page": 20
         }
     ]
-
-
-
 }
