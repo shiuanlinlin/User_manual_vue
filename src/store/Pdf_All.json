@@ -1,0 +1,448 @@
+{
+    "pdf_p2": [
+        {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
+    ],
+    "pdf_p3": [
+        {
+            "title1": "儀表板",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>今日與昨日 :</div><div class='text_content'>可選擇今日或昨日顯示相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/1.png'>",
+            "title2": "修改密碼",
+            "content2": "可修改後台密碼",
+            "img2": "<img src='img/pdf/2.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "部門管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增部門名稱、主管名稱。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除部門設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/3.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可修改相關設定。</div></li></ul>",
+            "img2": "<img src='img/pdf/3-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "權限管理 - 管理者",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增管理者、設定權限。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/4.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可修改相關設定。</div></li></ul>",
+            "img2": "<img src='img/pdf/4-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "權限管理 - 審批管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增審批類型、審批階級、主管。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li></ul>",
+            "img1": "<img src='img/pdf/5.png'>",
+            "title2": "權限管理 - 審批人員",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可修改相關設定。</div></li></ul>",
+            "img2": "<img src='img/pdf/5-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "會員管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出會員相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/6.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看會員相關資訊。</div></li><li class='d-flex'><div class='pink_text'>舉報黑名單 :</div><div class='text_content'>可檢舉該會員。</div></li><li class='d-flex'><div class='pink_text'>關閉/開啟超級會員 :</div><div class='text_content'>可關閉或開啟超級會員資格。</div></li></ul>",
+            "img2": "<img src='img/pdf/6-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 中介資格審查",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/7.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/7-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 開發商資格審查",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/8.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/8-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 新建物件審查",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/9.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/9-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 會員黑名單",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/10.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/10-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 會員黑名單激活",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/11.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/11-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 物件黑名單",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/12.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/12-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "審批管理 - 黑名單物件激活",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/13.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>審批 :</div><div class='text_content'>可進行審批、放行、退回，填寫相關資訊、審批原因。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看審批相關資訊。</div></li></ul>",
+            "img2": "<img src='img/pdf/13-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "套餐方案管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增套餐方案資訊、設定天數、價格、點數。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/14.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯套餐放案資訊、設定天數、價格、點數。</div></li></ul>",
+            "img2": "<img src='img/pdf/14-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "促销方案管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增活動名稱、內容。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/15.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯活動名稱、內容。</div></li></ul>",
+            "img2": "<img src='img/pdf/15-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "基本設定",
+            "content1": "<ul class='text_list'><li class='d-flex'>可設定儲值的最低金額、最高金額、草稿筆數、方案到期後點數保留天數、物件保留天數</li></ul>",
+            "img1": "<img src='img/pdf/16.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
+            "pagestatus": 1
+        },
+        {
+            "title1": "點數優惠活動",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增活動名稱、內容、價格、點數、開始/結束日期。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/17.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯活動名稱、內容、價格、點數、開始/結束日期。</div></li></ul>",
+            "img2": "<img src='img/pdf/17-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "廣告價格設定",
+            "content1": "<ul class='text_list'><li class='d-flex'>設定物件上架所需點數、設定時段、天數。</li></ul>",
+            "img1": "<img src='img/pdf/18.png'>",
+            "title2": "出售廣告設定",
+            "content2": "<ul class='text_list'><li class='d-flex'>設定物件上架所需點數、設定時段、天數。</li></ul>",
+            "img2": "<img src='img/pdf/19.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "新建案廣告",
+            "content1": "<ul class='text_list'><li class='d-flex'>設定物件上架所需點數、設定時段、天數。</li></ul>",
+            "img1": "<img src='img/pdf/20.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
+            "pagestatus": 1
+        },
+        {
+            "title1": "促銷活動",
+           "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增活動名稱、開始日期、結束日期、開始銷售時間、結束銷售時間、優惠價格每時段點數、廣告類型。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/21.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可查看活動名稱、開始日期、結束日期、開始銷售時間、結束銷售時間、優惠價格每時段點數、廣告類型。</li></ul>",
+            "img2": "<img src='img/pdf/21-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 首頁Banner",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/23.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/23-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 方案頁Banner",
+           "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/24.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/24-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 新建案頁Banner",
+           "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/25.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/25-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 新建案鑽石Banner",
+           "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看Banner相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/26.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner相關資訊。</li></ul>",
+            "img2": "<img src='img/pdf/26-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 時間管理",
+           "content1": "<ul class='text_list'><li class='d-flex'>設定出租、出售、新建案開放預定天數、秒數。</li></ul>",
+            "img1": "<img src='img/pdf/27.png'>",
+            "title2": "Banner廣告設定 - 預定總覽",
+            "content2": "<ul class='text_list'><li class='d-flex'>顯示已出售數量、未出售數量。</li></ul>",
+            "img2": "<img src='img/pdf/28.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "Banner廣告設定 - 常見問題Banner",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/29.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/29-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 聯絡平台Banner",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/30.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/30-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "Banner廣告設定 - 會員中心Banner",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>上傳Banner。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除Banner。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/31.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可編輯Banner。</li></ul>",
+            "img2": "<img src='img/pdf/31-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "財務管理 - 套餐訂單",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/32.png'>",
+            "title2": "財務管理 - 儲值訂單",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img2": "<img src='img/pdf/33.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "財務管理 - 鑽石Banner訂單",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/34.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "",
+            "pagestatus": 1
+        },
+        {
+            "title1": "點數紀錄",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關資訊。</div></li><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/35.png'>",
+            "title2": "",
+            "content2": "",
+            "img2": "<img src='img/pdf/35-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "物件管理 - 出租",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關資訊。</div></li><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/36.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>舉報黑名單 :</div><div class='text_content'>可將該物件設為黑名單。</div></li></ul>",
+            "img2": "<img src='img/pdf/36-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "物件管理 - 出售",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關資訊。</div></li><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/37.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>舉報黑名單 :</div><div class='text_content'>可將該物件設為黑名單。</div></li></ul>",
+            "img2": "<img src='img/pdf/37-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "物件管理 - 新建案",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關資訊。</div></li><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/38.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>舉報黑名單 :</div><div class='text_content'>可將該物件設為黑名單。</div></li></ul>",
+            "img2": "<img src='img/pdf/38-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "問題類別設定",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增類別名稱、責任部門。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除相關設定。</div></li></ul>",
+            "img1": "<img src='img/pdf/39.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯類別名稱、責任部門。</div></li></ul>",
+            "img2": "<img src='img/pdf/39-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "提問管理 - 會員提問",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關設定資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/40.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可回覆提出的問題</li></ul>",
+            "img2": "<img src='img/pdf/40-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "提問管理 - 訪客提問",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關設定資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/41.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可回覆訪客提出的問題</li></ul>",
+            "img2": "<img src='img/pdf/41-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 格局管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增格局名稱。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/42.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯格局名稱。</div></li></ul>",
+            "img2": "<img src='img/pdf/42-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 房屋類別",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增房屋類別。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/43.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯房屋類別。</div></li></ul>",
+            "img2": "<img src='img/pdf/43-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 格局管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增格局名稱。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/42.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯格局名稱。</div></li></ul>",
+            "img2": "<img src='img/pdf/42-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 房屋類別",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增房屋類別。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/43.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯房屋類別。</div></li></ul>",
+            "img2": "<img src='img/pdf/43-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 房屋類型",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增房屋類型、格局。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/44.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯房屋類型、格局。</div></li></ul>",
+            "img2": "<img src='img/pdf/44-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 便利設施標籤",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增便利設施標籤。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/45.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯便利設施標籤。</div></li></ul>",
+            "img2": "<img src='img/pdf/45-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "房屋信息設定 - 其他設施標籤",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增設施標籤。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/46.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯設施標籤。</div></li></ul>",
+            "img2": "<img src='img/pdf/46-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "常見問題 - 類別管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增類別。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/47.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯類別。</div></li></ul>",
+            "img2": "<img src='img/pdf/47-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "常見問題 - 問題管理",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>排序 :</div><div class='text_content'>可設定列表排序。</div></li><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增類別。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除設定。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/48.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯問題項目與答案。</div></li></ul>",
+            "img2": "<img src='img/pdf/48-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "其他管理 - 出租合約範本",
+            "content1": "可上傳出租合約範本。",
+            "img1": "<img src='img/pdf/49.png'>",
+            "title2": "其他管理 - 出售合約範本",
+            "content2": "可上傳出售合約範本。",
+            "img2": "<img src='img/pdf/50.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "其他管理 - 會員須知",
+            "content1": "可編輯網站的會員須知內容。",
+            "img1": "<img src='img/pdf/51.png'>",
+            "title2": "其他管理 - 賣家須知",
+            "content2": "可編輯網站的賣家須知內容。",
+            "img2": "<img src='img/pdf/52.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "其他管理 - 隱私權政策",
+            "content1": "可編輯隱私權政策。",
+            "img1": "<img src='img/pdf/53.png'>",
+            "title2": "其他管理 - 免責聲明",
+            "content2": "可設定免責聲明。",
+            "img2": "<img src='img/pdf/54.png'>",
+            "pagestatus": 2
+        },
+        {
+            "title1": "其他管理 - 網站資訊",
+            "content1": "可編輯關於我們、客服信箱、客服電話、WhatsApp帳號設定。",
+            "img1": "<img src='img/pdf/55.png'>",
+            "title2": "其他管理 - 退款政策",
+            "content2": "可編輯退款政策。",
+            "img2": "<img src='img/pdf/56.png'>",
+            "pagestatus": 2
+        }
+    ]
+}

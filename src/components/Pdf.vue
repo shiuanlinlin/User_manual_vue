@@ -17,7 +17,9 @@
       <div class="A4_Content" ref="pdfContent">
           <A4_Content_p1 :prop1=EditClass :prop2=pdftitle1 />
           <A4_Content_p2 :prop1=pdftitle2 :prop2=p2List />
-          <A4_Content_p3 v-for="item in p3ul" :key="item.id" :data="item"/>
+          <A4_Content_p2 :prop1=pdftitle2 :prop2=p3List />
+          <A4_Content_p2 :prop1=pdftitle2 :prop2=p4List />
+          <!-- <A4_Content_p3 v-for="item in p3ul" :key="item.id" :data="item"/> -->
       </div>
     </div>
     <!-- Modal -->
@@ -148,6 +150,10 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
         selected: 0,
         //頁數頁面List
         p2List: [{"name":"後台首頁","status":"1","stort":"1","page":1}],
+        //第二頁目錄List
+        p3List: [{"name":"後台首頁","status":"1","stort":"1","page":1}],
+         //第三頁目錄List
+        p4List: [{"name":"後台首頁","status":"1","stort":"1","page":1}],
         //第三頁之後的每個標題
         // P3Title: [
         //   {
@@ -259,6 +265,8 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
       getwebcatalog(status)
       {
         this.p2List = PdfTitle.pdf_p2_title;
+        this.p3List = PdfTitle.pdf_p3_title;
+        this.p4List = PdfTitle.pdf_p4_title;
         if(status != 'load')
         {
           alert('完成！');
@@ -344,6 +352,7 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
             let json = JSON.stringify(Alljson);
             Storage.setItem('page_num', json);
             this.p2List = Alljson;
+            //this.p3List = Alljson;
           break;
         }
       },

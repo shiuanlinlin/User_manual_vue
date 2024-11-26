@@ -2,34 +2,41 @@
     "pdf_p2": [
         {"title":"【注意事項】","contents":"<p class='red'>【注意事項】</p><ol><li>因為有幫您做防止XSS(Cross-Site Scripting)跨站腳本攻擊，所以在編輯時，瀏覽器若同時開啟兩個不同功能但皆有表單的網頁，則先開啟的網頁送出編輯內容就會失效。</li><li>建議編輯時，只開一個後台網頁，不要同時開啟兩個後台視窗頁面編輯。 </li></ol>"}
     ],
-    "pdf_p2_title": [
-        {"name": "修改密碼", "num": "", "status": 1, "stort": 1, "page": "03"},
-        {"name": "權限管理", "num": "", "status": 1, "stort": 2, "page": "04"},
-        {"name": "會員管理", "num": "", "status": 1, "stort": 3, "page": "05"},
-        {"name": "商品管理", "num": "", "status": 1, "stort": 4, "page": "06"},
-        {"name": "影音管理", "num": "", "status": 1, "stort": 5, "page": "07"},
-        {"name": "廣告管理", "num": "", "status": 5, "stort": 6, "page": "08"},
-        {"name": "廣告點擊紀錄", "num": "", "status": 2, "stort": 6, "page": "08"},
-        {"name": "首頁廣告", "num": "", "status": 2, "stort": 7, "page": "09"},
-        {"name": "優惠活動廣告", "num": "", "status": 2, "stort": 8, "page": "10"}
-    ],
     "pdf_p3": [
         {
-            "title1": "總日報表管理",
-            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出excel :</div><div class='text_content'>可匯出總日報表資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可進入觀看詳細資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
-            "img1": "<img src='img/pdf/37.png'>",
-            "title2": "總日報表管理_查看總日報表",
-            "content2": "可查詢簽核資訊、數據分析與相關產品、人員的基本資訊、製程敘述、檢查項目，紀錄例行性檢查與資料來源",
-            "img2": "<img src='img/pdf/38.png'>",
-            "pagestatus": 2
+            "title1": "物件管理 - 新建案",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關資訊。</div></li><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/38.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>舉報黑名單 :</div><div class='text_content'>可將該物件設為黑名單。</div></li></ul>",
+            "img2": "<img src='img/pdf/38-1.png'>",
+            "pagestatus": 1
         },
         {
-            "title1": "總日報表管理_查看總日報表",
-            "content1": "",
+            "title1": "問題類別設定",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>新增 :</div><div class='text_content'>可新增類別名稱、責任部門。</div></li><li class='d-flex'><div class='pink_text'>刪除 :</div><div class='text_content'>可刪除相關設定。</div></li></ul>",
             "img1": "<img src='img/pdf/39.png'>",
             "title2": "",
-            "content2": "",
-            "img2": "<img src='img/pdf/40.png'>",
+            "content2": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>編輯 :</div><div class='text_content'>可編輯類別名稱、責任部門。</div></li></ul>",
+            "img2": "<img src='img/pdf/39-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "提問管理 - 會員提問",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關設定資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/40.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可回覆提出的問題</li></ul>",
+            "img2": "<img src='img/pdf/40-1.png'>",
+            "pagestatus": 1
+        },
+        {
+            "title1": "提問管理 - 訪客提問",
+            "content1": "<ul class='text_list'><li class='d-flex'><div class='pink_text'>匯出 :</div><div class='text_content'>可匯出相關資訊。</div></li><li class='d-flex'><div class='pink_text'>查看 :</div><div class='text_content'>可查看相關設定資訊。</div></li><li class='d-flex'><div class='pink_text'>重新指派 :</div><div class='text_content'>可重新指派相關資訊。</div></li><li class='d-flex'><div class='pink_text'>搜尋 :</div><div class='text_content'>利用【搜尋】可快篩選出目標。</div></li><li class='d-flex'><div class='pink_text'>清除查詢 :</div><div class='text_content'>查詢後，欲想清除查詢重新整理頁面，可按下【清除查詢】即可。</div></li></ul>",
+            "img1": "<img src='img/pdf/41.png'>",
+            "title2": "",
+            "content2": "<ul class='text_list'><li class='d-flex'>可回覆訪客提出的問題</li></ul>",
+            "img2": "<img src='img/pdf/41-1.png'>",
             "pagestatus": 1
         }
     ]
